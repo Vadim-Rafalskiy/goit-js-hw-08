@@ -23,9 +23,6 @@ function handleFormState(e) {
 function handleSubmitDate(e) {
   e.preventDefault();
 
-  console.log(email.value);
-  console.log(message.value);
-
   if (email.value !== '' && message.value !== '') {
     console.log(formState);
     form.reset();
